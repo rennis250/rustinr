@@ -3,7 +3,7 @@ name = "rustlib"
 version = "0.1.0"
 
 [dependencies]
-rustr = "*"
+rustr = { version = "*", path = "../rustr" }
 
 [lib]
 name = "rustlib"
