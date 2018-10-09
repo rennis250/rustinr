@@ -2,8 +2,8 @@
 name = "rustlib"
 version = "0.1.0"
 
-[dependencies.rustr]
-git = "https://github.com/rennis250/rustr"
+[dependencies]
+rustr = "*"
 
 [lib]
 name = "rustlib"
