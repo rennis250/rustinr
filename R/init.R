@@ -122,7 +122,7 @@ rustr_init <- function(name,
 
     file.copy(file.path(skeleton, "Makevars.win"),
               file.path(src, "Makevars.win"))
-    if(Sys.info()["sysname"] == "FreeBSD"){
+    if(Sys.info()["sysname"] == "FreeBSD" || Sys.info()["sysname"] == "OpenBSD"){
         file.copy(file.path(skeleton, "Makevars.bsd"),
                   file.path(src, "Makevars"))
     } else{
